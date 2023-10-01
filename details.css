@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: rgb(248, 244, 244);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    /* background-image: url("img/shopping.ico.ico");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position:1450px 0px;
+    background-position-y:center;*/
+}
+
+.logo {
+    text-decoration: none;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+    .navigation a:hover {
+        color: #601cfc;
+    }
+.icons a {
+    color: blueviolet;
+    font-size: 1.3em;
+    padding-left: 40px;
+}
+
+    .icons a:hover {
+        color: #601cfc;
+    }
+section {
+    padding: 60px 100px;
+    display:flex;
+}
+.details h2 {
+    font-size: 2em;
+    color: black;
+    letter-spacing: 1px;
+    padding: 40px 300px;
+    padding-left: 10px;
+}
+.details h4 {
+    color: gray;
+    letter-spacing: 0.8px;
+    padding: 50px 300px;
+    padding-left: 10px;
+    padding-top: 0px
+}
+.details h3 {
+    color: blueviolet;
+    letter-spacing: 1px;
+    padding: 20px 300px;
+    padding-left: 10px;
+}
+.details p {
+    color: gray;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    padding: 20px 300px;
+    padding-left: 10px;
+}
+
+.buy-btn {
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    transition: 0.7s ease;
+}
+
+.buy-btn:hover {
+    background-color: #8108f1;
+    transform: scale(1.1);
+}.details{
+     padding-left:60px;
+}

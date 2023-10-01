@@ -1,0 +1,466 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+header {
+    background: rgb(248, 244, 244);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+   /* background-image: url("img/shopping.ico.ico");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position:1450px 0px;
+    background-position-y:center;*/
+}
+.logo {
+    text-decoration: none;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:#601cfc;
+}
+section{
+    padding:100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: white;
+    justify-content: space-between;
+}
+
+    .main h2 {
+        color: blueviolet;
+        font-size: 3em;
+        text-transform:uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .main h3 {
+        color:gray;
+        font-size:1em;
+        font-weight:700;
+        letter-spacing:1px;
+        margin-top:10px;
+        margin-bottom:30px;
+    }
+.main-btn {
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition:0.7s ease;
+}
+.main-btn:hover{
+    background-color:#8108f1;
+    transform:scale(1.1);
+}
+.icons a{
+    color:blueviolet;
+    font-size:1.3em;
+    padding-left:40px;
+}
+    .icons a:hover {
+        color: #601cfc;
+    }
+.title {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 70px;
+}
+.content{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.cat {
+    background: white;
+    width: 15.25em;
+    box-shadow: 0px 10px 25px rgba(1 1 1/25%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.cat:hover {
+    transform: scale(1.1);
+}
+.icon{
+    font-size:8em;
+    text-align:center;
+}
+.name {
+    text-align: center;
+    color: blueviolet;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.cat .name {
+    text-align: center;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.el a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 800;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+    .el a:hover {
+        color: #601cfc;
+    }
+
+
+.Electronics.content {
+    margin-top: 30px;
+}
+.cat-product {
+    background: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    box-shadow: 0px 10px 25px rgba(1 1 1/25%);
+}
+    .cat-product:hover {
+        transform: scale(1.1);
+    }
+    .cat-product:hover {
+        opacity:0.9;
+}
+    .prod-img img{
+        width:100%;
+    }
+    .prod-det{
+        padding:1em;
+    }
+.prod-det h5 {
+    font-size:0.8em;
+    color:gray;
+}
+.pro-details{
+    display:flex;
+    justify-content:space-between;
+    text-transform:uppercase;
+    font-weight:800;
+    margin-top:10px;
+}
+.more-det{
+    text-decoration:none;
+    color:blueviolet;
+}
+.more-det a:hover {
+    color: #601cfc;
+}
+@media(max-width:1500px){
+    header {
+        background-position-y: center;
+        background-position-x: center;
+        background-size: 35px 35px;
+        padding: 17px 90px;
+        background-position:1199px 15px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:1200px){
+    header {
+        background-position-y: center;
+        background-position-x: center;
+        background-size: 20px 20px;
+        padding: 17px 90px;
+        background-position: 900px 15px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:1000px){
+    header {
+        background-position-y: center;
+        background-position-x: center;
+        background-size: 30px 30px;
+        padding: 17px 90px;
+        background-position: 830px 15px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:850px){
+    header {
+        background-position-y: center;
+        background-position-x: center;
+        background-size: 35px 35px;
+        padding: 17px 90px;
+        background-position: 730px 15px;
+    }
+
+    .navigation a {
+        padding-left:10px;
+    }
+    .title{
+        font-size:1.8em;
+    }
+    section{
+        padding:80px 20px;
+    }
+    .main-content h2{
+        font-size:1em;
+    }
+    .main-content h3{
+        font-size:1.6em;
+    }
+    .content{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+@media(max-width:725px){
+    header {
+        background-position-y: center;
+        background-position-x: center;
+        background-size: 20px 20px;
+        padding: 17px 90px;
+        background-position: 350px 25px;
+    }
+    body{
+        font-size:12px;
+    }
+   .main-content h3{
+       font-size:1.4em;
+   }
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+}
+@media(max-width:300px){
+    header {
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 20px 25px;
+        padding: 17px 90px;
+        background-position: 350px 30px;
+    }
+    body{
+        font-size:10px;
+    }
+}
+section .Electronics{
+    display:inline-block;
+    padding:5em;
+    margin-bottom:99px;
+}
+section .Grocary{
+    display: inline-block;
+    padding: 5em;
+    margin-bottom: 99px;
+}
+section .Kitchen{
+    display: inline-block;
+    padding: 5em;
+    margin-bottom: 99px;
+}
+section .Fashion {
+    display: inline-block;
+    padding: 5em;
+    margin-bottom: 99px;
+}
+
+
+
+.discount{
+    position:absolute;
+    top:1.5em;
+    left:1.51em;
+    font-size:1.2em;
+    color:black;
+    background-color:blueviolet;
+    z-index:1;
+    border-radius:0.3em;
+}
+
+
+     .iconss a {
+        height: 1em;
+        line-height: 1em;
+        font-size: 2em;
+        width: 70%;
+        color: blueviolet;
+        padding:70px;
+    }
+     .iconss a :hover{
+         color:blue;
+     }
+      
+     .price span{
+         color:gray;
+         text-decoration:line-through;
+         font-size:1em;
+         padding-left:15px;
+
+     }
+.Contact a {
+    text-decoration: none;
+    font-size: 1.3em;
+   color: blueviolet;
+}
+.Contact  .fa-phone {
+    color:blueviolet;
+    
+}
+.Contact .fa-envelope {
+    color: blueviolet;
+}
+
+
+
+
+
+
+@media(max-width:1090px) {
+
+    .main {
+    }
+    .logo {
+        padding-right:-10px;
+        font-weight: 700;
+        font-size: 0.9em;
+        margin-left:-60px;
+    }
+    .navigation {
+        font-weight: 400;
+        font-size: 0.7em;
+        padding-left: 20px;
+        justify-content: center;
+    }
+    .icons a {
+        font-size: 0.9em;
+        padding-left: 10px;
+        margin-left: -10px;
+        padding-inline:10px;
+    }
+
+}
+.iconss {
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: space-between; /* Space evenly between items */
+    margin-left:-20px;
+
+}
+.discount{
+    color:black;
+}
+
+
+
+
+
